@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>El Arte de la Natacion</title>
+
+<!-- BOOTSTRAP -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<style>
+
+/* RESETEO GENERAL */
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial, Helvetica, sans-serif;
+}
+
+/* FONDO */
+body{
+background-color:#1a1a1a;
+color:white;
+}
+
+/* NAVBAR PERSONALIZADA */
+nav{
+background:#111;
+}
+
+/* TITULO */
+h1{
+color:#8b5cf6;
+font-size:42px;
+text-align:center;
+margin:30px 0;
+}
+
+/* SUBTITULOS */
+h2{
+color:#a78bfa;
+margin-top:20px;
+}
+
+/* TABLA */
+table{
+margin-top:20px;
+}
+
+/* ASIDE */
+.lateral{
+border:2px solid #a78bfa;
+border-radius:10px;
+padding:20px;
+}
+
+/* CONTENIDO */
+.principal{
+border:2px solid #8b5cf6;
+border-radius:10px;
+padding:20px;
+}
+
+/* IMAGEN */
+img{
+margin-top:20px;
+border-radius:10px;
+border:2px solid #8b5cf6;
+}
+
+/* FOOTER */
+footer{
+margin-top:40px;
+padding:20px;
+border-top:2px solid #8b5cf6;
+text-align:center;
+}
+
+html{
+scroll-behavior:smooth;
+}
+
+</style>
+</head>
+
+<body>
+
+<!-- NAVBAR BOOTSTRAP -->
+<nav class="navbar navbar-expand-lg navbar-dark">
+<div class="container">
+
+<a class="navbar-brand" href="#">Natación</a>
+
+<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+<span class="navbar-toggler-icon"></span>
+</button>
+
+<div class="collapse navbar-collapse" id="menu">
+<ul class="navbar-nav ms-auto">
+
+<li class="nav-item">
+<a class="nav-link" href="#inicio">Inicio</a>
+</li>
+
+<li class="nav-item">
+<a class="nav-link" href="#historia">Historia</a>
+</li>
+
+<li class="nav-item">
+<a class="nav-link" href="#estilos">Estilos</a>
+</li>
+
+<li class="nav-item">
+<a class="nav-link" href="#porque">¿Por qué?</a>
+</li>
+
+<li class="nav-item">
+<a class="nav-link" href="#contacto">Contacto</a>
+</li>
+
+</ul>
+</div>
+</div>
+</nav>
+
+<div class="container">
+
+<h1 id="inicio">Mas que un Deporte</h1>
+
+<div class="row g-4">
+
+<!-- CONTENIDO PRINCIPAL -->
+<div class="col-lg-8 principal">
+
+<p>
+En esta pagina veremos lo increible que es este hermoso deporte, es como volar, es coordinacion y arte en un solo movimiento; veremos algo de la historia, diferentes estilos y por que elegi este tema para mi blog.
+</p>
+
+<article id="historia">
+<h2>Historia de la Natacion</h2>
+<p>
+La natación es una de las actividades más antiguas del ser humano al ser usada tanto para la casa como para la supervivencia.
+</p>
+</article>
+
+<article id="estilos">
+<h2>Estilos de la Natacion</h2>
+
+<ul>
+<li><b>Estilo Libre:</b> Es el más rápido y usado en competencias.</li>
+<li><b>Espalda:</b> Se nada boca arriba.</li>
+<li><b>Pecho:</b> Movimiento simultáneo como una rana.</li>
+<li><b>Mariposa:</b> Movimiento ondulatorio exigente.</li>
+</ul>
+
+<table class="table table-dark table-striped">
+
+<tr>
+<th>Estilo</th>
+<th>Posición</th>
+<th>Nivel de Dificultad</th>
+</tr>
+
+<tr>
+<td>Libre (Crol)</td>
+<td>Boca abajo</td>
+<td>Media</td>
+</tr>
+
+<tr>
+<td>Espalda</td>
+<td>Boca arriba</td>
+<td>Media</td>
+</tr>
+
+<tr>
+<td>Pecho</td>
+<td>Boca abajo</td>
+<td>Media-Alta</td>
+</tr>
+
+<tr>
+<td>Mariposa</td>
+<td>Boca abajo</td>
+<td>Alta</td>
+</tr>
+
+</table>
+
+</article>
+
+<h2 id="porque">¿Por que Natacion?</h2>
+
+<p>
+Empece a practicar la natacion a los 5 años y desde entonces se ha convertido en una parte muy importante de mi vida.
+</p>
+
+</div>
+
+<!-- LATERAL -->
+<div class="col-lg-4 lateral">
+
+<h2>Imagen</h2>
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/H%C3%A0bit_Saludable.jpg/1280px-H%C3%A0bit_Saludable.jpg"
+alt="Natacion" width="100%">
+
+</div>
+
+</div>
+
+</div>
+
+<footer id="contacto">
+Isabella Murcia Carranza | i.murciacarranza.2010@gmail.com | 3189724398
+</footer>
+
+<!-- JS BOOTSTRAP -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
